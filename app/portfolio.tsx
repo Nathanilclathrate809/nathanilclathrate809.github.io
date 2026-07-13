@@ -72,7 +72,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
         <nav className="main-nav" aria-label="Primary navigation">
           <Link href="/">Home</Link>
           <div className="project-nav">
-            <Link href="/projects">Projects <span>+</span></Link>
+            <span className="project-trigger">Projects <span>+</span></span>
             <div className="project-menu">
               {projects.map((project) => (
                 <Link key={project.slug} href={`/projects/${project.slug}`}>
@@ -86,6 +86,10 @@ export function SiteShell({ children }: { children: ReactNode }) {
           <Link href="/contact">Contact</Link>
         </nav>
         <Link className="brand" href="/" aria-label="Ruichi Li home"><span>RUICHI LI</span></Link>
+        <div className="header-socials" aria-label="Contact links">
+          <a href="mailto:ruichil1030@gmail.com" aria-label="Email Ruichi Li">✉</a>
+          <a href="https://www.linkedin.com/in/ruichi-li-9903372b1/" target="_blank" rel="noreferrer" aria-label="Ruichi Li on LinkedIn">in</a>
+        </div>
       </header>
       <main>{children}</main>
       <footer className="site-footer">
@@ -142,5 +146,5 @@ export function ResumePage() {
 }
 
 export function ContactPage() {
-  return <SiteShell><section className="contact-page"><span className="eyebrow">CONTACT / OPEN TO COLLABORATION</span><h1>Let&apos;s build<br /><em>the next route.</em></h1><p>For level design, gameplay, and collaborative game-development opportunities, get in touch.</p><a className="contact-email" href="mailto:ruichil1030@gmail.com">ruichil1030@gmail.com <span>↗</span></a><div className="contact-meta"><span>Dallas, Texas</span><a href="https://www.linkedin.com/in/ruichi-li-9903372b1/" target="_blank">LinkedIn ↗</a></div></section></SiteShell>;
+  return <SiteShell><section className="contact-page"><div className="contact-content"><h1>Get in Touch!</h1><p>I’m always open to discussing new opportunities, creative projects, or interesting ideas. Feel free to use the form or connect with me on social media.</p><a className="contact-email" href="mailto:ruichil1030@gmail.com">ruichil1030@gmail.com</a><a className="contact-phone" href="tel:+18723778884">(872) 377-8884</a><div className="contact-meta"><a href="mailto:ruichil1030@gmail.com" aria-label="Email Ruichi Li">✉</a><a href="https://www.linkedin.com/in/ruichi-li-9903372b1/" target="_blank" rel="noreferrer" aria-label="Ruichi Li on LinkedIn">in</a></div></div></section></SiteShell>;
 }
